@@ -5,45 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swaathy Selvagnanam - Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- ADD NEW FONT WHEN THERE IS TIME 
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Sora"> -->
 </head>
 <body>
     <!-- Site Header -->
     <header>
-        <h1>Swaathy Selvagnanam</h1>
         <!-- Nav Links -->
-        <nav>
+        <nav class="topnav">
             <!-- Unordered Lists -->
             <ul>
-                <li>
-                    <a href="hero">Home</a>
-                </li>
-                <li>
-                    <a href="#about-me">About</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="contact">Contact</a>
-                </li>
+                <li id="name">Swaathy Selvagnanam</li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#hero">Home</a></li>
             </ul>
         </nav>
      </header>
      <!-- Homepage -->
-     <section class="hero"></section>
+     <section class="container">
+         <img src="./assets/images/hero-image.png" alt="Background image" class="hero">
+         <h1 class="circle">Swaathy Selvagnanam</h1>
+     </section>
+     
+     
      <main>
          <!-- About Section -->
-         <section id="about-me" class="about-me">
-            <h2>About</h2>
-            <p>Hello! My name is Swaathy Selvagnanam and I am currently enrolled in the UofT SCS Coding Boot Camp program. In this course, I will learn the core skills needed for a career in web development and technology and purse a career as a Full-Stack Developer. Before choosng to explore a different career path, I had completed my undergrad at Western University and was working in the Healthcare Administration field.</p>
+         <section id="about-me" class="subsection">
+            <h2 class="section-heading">About</h2>
+            <img src="./assets/images/portrait.jpg" alt="Portrait of Swaathy" class="portrait">
+            <p id="about-me-text">Hello! My name is Swaathy Selvagnanam and I am currently enrolled in the UofT SCS Coding Boot Camp program. In this course, I will learn the core skills needed for a career in web development and technology and purse a career as a Full-Stack Developer. Before choosng to explore a different career path, I had completed my undergrad at Western University and was working in the Healthcare Administration field.</p>
          </section>
          <!-- Projects Section -->
-         <section id="projects" class="projects">
-             <h2>Projects</h2>
+         <section id="projects" class="subsection2">
+             <h2 class="section-heading">Projects</h2>
          </section>
          <!-- Contact Section -->
-         <section id="contact" class="contact">
-             <h2>Contact</h2>
+         <section id="contact" class="subsection">
+             <h2 class="section-heading">Contact</h2>
          </section>
      </main>
      <!-- Footer -->
@@ -52,4 +53,3 @@
      </footer>
 </body>
 </html>
-

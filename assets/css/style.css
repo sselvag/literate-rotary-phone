@@ -1,0 +1,103 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.topnav {
+    background-color: #606C38;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 10000;
+    color: #FEFAE0;
+}
+
+ul {
+    list-style-type: none;
+}
+  
+li a {
+    display: inline;
+    padding: 5px;
+    text-decoration: none;
+    float: right;
+}
+
+#name {
+    color: #FEFAE0;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #FEFAE0;
+}
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/hero-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #606C38;
+}
+
+.circle {
+    background: #BC6C25;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-style: double;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FEFAE0;
+}
+
+.subsection {
+    background-color: #BC6C25;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    color: #FEFAE0;
+}
+
+.subsection2 {
+    background-color: #dda15e;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    color: #FEFAE0;
+}
+
+footer {
+    background-color: #606C38;
+    height: 50px;
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+    color: #FEFAE0;
+}
+
+.portrait {
+    border-radius: 50%;
+    height: 350px;
+    float: left;
+}
+
+#about-me-text {
+    float: right;
+}
+
+.section-heading {
+    text-align: center;
+}
+/* FOR MEDIE SCREEN RESPONSE FOR NAVBAR GO TO
+https://www.w3schools.com/howto/howto_css_topnav_centered.asp */
