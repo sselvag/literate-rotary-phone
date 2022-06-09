@@ -72,7 +72,7 @@ li a {
     padding: 10px;
 }
 
-h2 {
+.section-title {
     position: relative;
     bottom: 20%;
     left: 50%;
@@ -104,7 +104,49 @@ h2 {
 
 /* affects project section */
 
+.projects-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 10px 20px; 
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+#joke1 {
+    width: 250px;
+    height: 200px;
+    display: block;
+}
+
+#joke2, #joke3, #joke4, #joke5 {
+    width: 200px;
+    height: 150px;
+}
+
+.project-titles{
+    box-sizing: border-box;
+    position: relative
+}
+
+.overlay {
+    position: absolute;
+    background: #606C38; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: #FEFAE0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.project-titles:hover .overlay {
+    opacity: 1;
+}
+
 /* affects contact section */
+
+
 
 /* affects footer */
 footer {
