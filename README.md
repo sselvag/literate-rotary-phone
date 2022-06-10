@@ -12,16 +12,16 @@
 The following screenshots display the portfolio in a 768x814px (tablet) viewport.
 
 Homepage:
-![screenshot] (./assets/images/homepage-scrnsht.png)
+![homepage-scrnsht](https://user-images.githubusercontent.com/64749332/173005124-1996decc-41f8-4f1e-9a69-4b16eb533048.png)
 
 About Section:
-![screenshot] (./assets/images/about-scrnsht.png)
+![about-scrnsht] (./assets/images/about-scrnsht.png)
 
 Project Section:
-![screenshot] (./assets/images/projects-scrnsht.png)
+![projects-scrnsht] (./assets/images/projects-scrnsht.png)
 
 Contact & Footer Section:
-![screenshot] (./assets/images/contact-scrnsht.png)
+![contact-scrnsht] (./assets/images/contact-scrnsht.png)
 
 
 
