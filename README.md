@@ -15,13 +15,16 @@ Homepage:
 ![homepage-scrnsht](https://user-images.githubusercontent.com/64749332/173005124-1996decc-41f8-4f1e-9a69-4b16eb533048.png)
 
 About Section:
-![about-scrnsht] (./assets/images/about-scrnsht.png)
+![about-scrnsht](https://user-images.githubusercontent.com/64749332/173005268-a005f602-1470-439a-a191-e9c8d7226d47.png)
+
 
 Project Section:
-![projects-scrnsht] (./assets/images/projects-scrnsht.png)
+![projects-scrnsht](https://user-images.githubusercontent.com/64749332/173005300-df81c1b1-20fc-4105-9599-585943aeeff5.png)
+
 
 Contact & Footer Section:
-![contact-scrnsht] (./assets/images/contact-scrnsht.png)
+![contact-scrnsht](https://user-images.githubusercontent.com/64749332/173005341-d0feb40d-155d-45e2-b0a7-19ede4721d7f.png)
+
 
 
 
