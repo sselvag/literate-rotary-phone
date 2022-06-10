@@ -13,11 +13,9 @@ html {
     width: 100vw;
     z-index: 10000;
 }
-
 ul {
     list-style-type: none;
 }
-  
 li a {
     display: inline;
     padding-right: 15px;
@@ -25,22 +23,14 @@ li a {
     float: right;
     color: #FEFAE0
 }
-
-#name {
-    display: inline-block;
-    vertical-align: baseline;
-}
-
 .topnav a:hover {
     color: #283618;
 }
-
 /* affects homepage */
-.container {
+.home {
     position: relative;
     text-align: center;
 }
-
 .hero {
     height: 100vh;
     width: 100vw;
@@ -50,7 +40,6 @@ li a {
     background-position: center;
     background-color: #606C38;
 }
-
 .circle {
     background: #BC6C25;
     width: 300px;
@@ -65,41 +54,23 @@ li a {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-/* affects main sections */
-.subsection {
+/* affects about section */
+#about {
     background-color: #BC6C25;
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     align-self: center;
     padding: 10px;
 }
-
-.section-title {
-    position: relative;
-    bottom: 20%;
-    left: 50%;
-}
-
-.subsection2 {
-    background-color: #dda15e;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-}
-
-/* affects about section */
 .portrait {
     border-radius: 50%;
     height: 350px;
     position: relative;
     margin-right: 8%;
+    margin-left: 15%
 }
-
 #about-me-text {
     position: relative;
     justify-content: center;
@@ -107,7 +78,20 @@ li a {
 }
 
 /* affects project section */
-
+#projects {
+    background-color: #dda15e;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    display:flex;
+    flex-wrap: wrap;
+}
+#project-title {
+    position: relative;
+    text-align: center;
+}
 .projects-gallery {
     display: flex;
     flex-flow: row wrap;
@@ -116,23 +100,20 @@ li a {
     row-gap: 10px;
     column-gap: 20px;
 }
-
 #joke1 {
     width: 250px;
     height: 200px;
-    display: block;
+    padding: 15px;
 }
-
-#joke2, #joke3, #joke4, #joke5 {
+.joke2345 {
     width: 200px;
     height: 150px;
+    padding: 15px;
 }
-
 .project-titles{
     box-sizing: border-box;
     position: relative
 }
-
 .overlay {
     position: absolute;
     background: #606C38; 
@@ -143,7 +124,6 @@ li a {
     font-size: 20px;
     text-align: center;
 }
-
 .project-titles:hover .overlay {
     opacity: 1;
 }
@@ -158,11 +138,9 @@ li a {
     flex-wrap: wrap;
     align-items: center;
 }
-
 #contact-title {
     align-self: flex-start; 
 }
-
 .icon {
     height: 50px;
     width: 50px;
@@ -177,6 +155,40 @@ footer {
     padding: 10px;
 }
 
-
-/* FOR MEDIE SCREEN RESPONSE FOR NAVBAR GO TO
-https://www.w3schools.com/howto/howto_css_topnav_centered.asp */
+/* responsive */
+@media screen and (max-width: 782px) {
+    #about {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    p {
+        text-align: center;
+    }
+    .portrait {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 465px) {
+    #contact {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+@media screen and (max-height: 680px) {
+    #projects {
+        height:fit-content;
+    }
+    .projects-gallery {
+        display: flex;
+        flex-direction: column;
+}
+@media screen and (max-height: 680px) {
+    #projects {
+        height:fit-content;
+    }
+    #about {
+        height:fit-content;
+    }
+}
